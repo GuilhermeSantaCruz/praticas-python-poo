@@ -28,3 +28,7 @@ print(c1)
 c2 = ContaBancaria(6598, "Ione", 9000)
 c2.sacar(15000)
 print(c2)
+
+c3 = ContaBancaria(231191, "Luana", 5000)
+print(c3.__dict__)
+print(c3.__class__)
